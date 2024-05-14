@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="header">
+
+        <a href="index.html">
+            <span class="logo">Logo</span>
+        </a>
+        <h2>Welcome To Cart Page</h2>
+
+        <span class="cartLogo" onclick="location.href='#top' ">&#128722;
+            <span id="cartCount">0</span></span>
+
+    </div>
+
+    <div class="cart-Container">
+
+        <!-- <div class="item">
+
+            <p>Lorem ipsum dolor sit</p>
+            <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="">
+            <p class="price">
+                <span>&euro;</span>
+                <span>Price</span>     
+           </p> 
+             
+            <button>Remove</button>
+
+        </div> -->
+
+        <!-- Further Cart Item get fetched from the saved local storage -->
+
+    
+    </div>
+
+    <div class="check-out">
+        
+        <h2>SubTotal Price : <span class="subTotal">0</span> <span>&euro;</span></h2>
+
+        <button onclick="location.href='index.html'" >Add More Items</button>
+
+        <button id="checkout"  onclick="alert('Item added To Payment Page!')">Checkout</button>
+       
+
+        
+
+    </div>
+
+<script src="cart.js"></script>
+    
+</body>
+</html>
